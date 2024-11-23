@@ -45,7 +45,7 @@ def index():
                            pagination=pagination)
 
 
-attr = ['id', 'title', 'genre', 'author', 'publisher', 'year', 'description', 'isbn', 'price', 'photo']
+attr = ['id', 'title', 'genre', 'publisher', 'year', 'author', 'description', 'isbn', 'price', 'photo']
 
 
 @app.route('/book_list')
